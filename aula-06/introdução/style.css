@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+MX:wght@100..400&display=swap');
+
+* {
+ margin: 0;
+ padding: 0;
+ text-decoration: none;
+ list-style: none;
+}
+
+body{
+    font-family: "Dancing Script", sans-serif;
+}
+.container {
+    background-color: indigo;
+}
+.primeira-secao {
+    color: red;
+}
+ .primeira-secao >p {
+color: darkcyan;
+ }
+
+ .primeira-secao > div > p {
+    color: darksalmon;
+ }
+
+    .primeira-secao > div > div > p {
+        color: darkgreen;
+    }
+    
+    .segunda-secao {
+        color: white;
+        background-color: blue;
+        margin: 20px;
+        padding: 50px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: black;
+    }
+
+    .segunda-secao > p {
+        font-size: 20px;
+        text-decoration: underline;
+        text-align: center;
+        font-weight: 700;
+    }
