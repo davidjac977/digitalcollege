@@ -1,0 +1,52 @@
+div:hover {
+    background-color: darkcyan;
+  }
+  
+  button {
+    background-color: darkblue;
+  }
+  
+  button:hover {
+    background-color: darkred;
+  }
+  
+  button:active {
+    background-color: darkgreen;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: darkred;
+  }
+  
+  a:hover {
+    color: darkgoldenrod;
+    text-decoration: underline;
+  }
+  
+  input:disabled {
+    background-color: red;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+
+  td, th {
+    border: 1px solid black;
+  }
+
+  tbody tr:nth-child(odd) {
+    background-color: darkgray;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: rgba(158, 63, 9, 0.642);
+  }
+
+  tfoot{
+    background-color: darkgoldenrod;
+  }
