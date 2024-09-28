@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula 18</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col min-h-screen justify-center items-center bg-zinc-200">
+    
+    
+    <h1 class="text-3xl font-medium">Cadastro de Produto</h1>
+    
+
+<form>
+
+<div>
+<label for="nome">Nome</label>
+<input type="text" name="nome" id="nome" class=" border border-black" placeholder="Nome do produto...">
+</div>
+<br>
+<div>
+<label for="preco">Preço</label>
+<input type="number" name="preco" id="preco" class=" border border-black" placeholder="Digite o preço...">
+
+</div>
+
+<br>
+<div>
+    <label for="categoria">Categoria</label>
+    <select name="categoria" id="categoria" class=" border border-black">
+        <option value="categoria1">Informática</option>
+        <option value="categoria2">Drogas</option>
+        <option value="categoria3">Automovéis</option>
+    </select>
+</div>
+<br>
+
+<button  type="button" onclick="imprimirDadosDoFormulario() " class="w-full h-12 bg-sky-700 rounded-md text-white">Cadastrar</button>
+
+
+<br>
+
+
+<button  type="button" onclick=" deletarProduto()" class="w-full h-12 bg-red-600 rounded-md text-white">Deletar Produto</button>
+
+
+
+
+
+
+
+</form>
+
+<script src="./script.js"></script>
+</body>
+</html>

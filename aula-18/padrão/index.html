@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 18</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="flex flex-col min-h-screen justify-center items-center">
+  <h1 class="text-3xl font-medium">Cadastro de Produto</h1>
+  <form class="w-full max-w-lg space-y-4">
+    <div class="flex flex-col">
+      <label for="nome" class="text-lg">Nome</label>
+      <input type="text" name="nome" id="nome" class="border border-black rounded-md h-10 px-2">
+    </div>
+    <div class="flex flex-col">
+      <label for="categoria" class="text-lg">Categoria</label>
+      <select name="categoria" id="categoria" class="border border-black rounded-md h-10 px-2">
+        <option value="Eletrônicos">Eletrônicos</option>
+        <option value="Móveis" selected>Móveis</option>
+        <option value="Eletros">Eletros</option>
+      </select>
+    </div>
+    <div class="flex flex-col">
+      <label for="preco" class="text-lg">Preço</label>
+      <input type="text" name="preco" id="preco" class="border border-black rounded-md h-10 px-2">
+    </div>
+    <button class="w-full h-12 bg-sky-700 rounded-md text-white">
+      Cadastrar
+    </button>
+  </form>
+  <script src="./script.js"></script>
+</body>
+
+</html>
